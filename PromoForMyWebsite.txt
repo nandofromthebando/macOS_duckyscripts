@@ -1,0 +1,15 @@
+REM Title: IPGRABBER
+REM Author: NANDOFROMTHEBANDO
+REM Description: Opens my portfolio website
+
+ID 05ac:021e Apple:Keyboard
+DELAY 500
+GUI SPACE
+DELAY 500
+STRING terminal
+DELAY 1000
+ENTER
+DELAY 2000 
+STRING open https://nandofromthebando.github.io/Anand.Lessard.github.io/
+DELAY 1000
+ENTER
